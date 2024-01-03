@@ -12,6 +12,7 @@ namespace Geta.Optimizely.Categories
 {
     [ContentType(GUID = "9eba3e01-21b3-416e-b335-4911b07cf106", AvailableInEditMode = false)]
     [AvailableContentTypes(Availability = Availability.Specific, Include = new[] { typeof(CategoryData) })]
+    [ContentType(GUID = "49D8091E-BAD8-4A48-B545-77DBA3D2F555", AvailableInEditMode = false)]
     public class CategoryData : StandardContentBase, IRoutable
     {
         private string _routeSegment;
